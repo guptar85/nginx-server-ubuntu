@@ -18,3 +18,16 @@ systemd and Serice manager -> https://www.freedesktop.org/wiki/Software/systemd/
 
 NGINX Init Scripts -> https://www.nginx.com/resources/wiki/start/topics/examples/initscripts/
 
+NGINX Configuration validation -> nginx -t
+
+NGINX Pre-defined Variables -> http://nginx.org/en/docs/varindex.html
+
+If used inside location context is not recommened -> https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/
+
+HTTP status code -> https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+Rewrites will not change the URL. But redirect will change the URL
+
+Try_files is superset of rewrites/ redirect. It mainly is used for 404 if resources not found
+
+Logging -> https://docs.nginx.com/nginx/admin-guide/monitoring/logging/
